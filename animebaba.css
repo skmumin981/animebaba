@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-lg-7 a h1 {
+    font-family: cursive;
+    color: red;
+    list-style: none;
+}
+
+.col-lg-5 ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+
+}
+
+.content {
+    height: 50px;
+    background-color: black;
+    border-bottom: 3px solid gray;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.col-lg-5 ul {
+    margin-top: 5px;
+}
+
+.col-lg-5 ul li a:hover {
+    color: blue;
+}
+
+img {
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.third-section {
+    background-color: #f1f2f6;
+}
+
+.col-lg-4 a h1 {
+    font-family: cursive;
+    color: red;
+    list-style: none;
+    margin-top: 115px;
+}
+
+.footer {
+    background-color: black;
+}
+
+i {
+    color: gray;
+    font-size: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+video {
+    height: 450px;
+    width: 550px;
+    width: 100%;
+}
+
+.buttons button {
+    color: red;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#play2 {
+    display: none;
+}
+#btn {
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -8px;
+    margin-top: 1px;
+    padding: 5px;
+}
+#inp{
+    height: 34px;
+    width: 200px;
+    border: 2px solid blue;
+    outline: none;
+    font-size: 15px;
+}
+
+#osker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, blue 0%, cyan 100%);
+    transition: 0.5s ease;
+}
+#finish{display: none;}
+.king h1{
+    color: red;
+    font-family: cursive;
+}
+.king h6{display: none;}
